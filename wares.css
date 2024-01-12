@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+/*body style*/
+body {
+  background-image: url(image/happy-surprised-santa-claus-pointing-blank-advertisement-wall-with-copy-space.jpg);
+
+  background-size: cover;
+  z-index: -1;
+}
+
+/*this styles the list-container for the header*/
+.name {
+  background-color: rgb(105, 105, 105);
+  padding-top: 25px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  width: 100%;
+}
+/*list style for the header*/
+li {
+  float: left;
+  padding-right: 20px;
+  list-style-type: none;
+  color: white;
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+/*this is for styling the first list-item in the header*/
+.pad {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 0px;
+}
+/*this is for styling the link*/
+a {
+  color: white;
+  text-decoration: none;
+}
+/*this is to float the links on the nav bar*/
+.right {
+  float: right;
+}
+/*this is to style the general item container in the body*/
+#align {
+  max-width: 45em;
+  margin-left: 0px;
+}
+/*this is to style the each item box*/
+.imgbox {
+  float: left;
+  text-align: center;
+  margin-right: 13px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  font-size: 20px;
+  max-width: 210px;
+  border: 1px solid black;
+  padding-right: 0px;
+}
+.span {
+  color: black;
+}
+/*this is to style the image*/
+img {
+  width: 100%;
+  height: 10em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/*this is to style the botton*/
+button {
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+/*this is to style the hover on each botton*/
+button:hover {
+  background-color: green;
+}
